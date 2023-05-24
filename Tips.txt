@@ -2,6 +2,7 @@
 manim -pql AllPythonAnimations.py Example
 cd /d D:\разобрать\Software\Python\AllPythonAnimations\AllPythonAnimations
 
+
 class Example(Scene):
 def construct(self):
 
