@@ -2,10 +2,6 @@
 manim -pql AllPythonAnimations.py Example
 cd /d D:\разобрать\Software\Python\AllPythonAnimations\AllPythonAnimations
 
-
-class Example(Scene):
-def construct(self):
-
 equation = Tex(r'$d\left(p, q\right)=d\left(q, p\right)=\sqrt{(q_1-p_1)^2+(q_2-p_2)^2+...+(q_n-p_n)^2}=\sqrt{\sum_{i=1}^n\left(q_i-p_i\right)^2}$')
 
 x_var = Variable(start, 'x', num_decimal_places=3)
